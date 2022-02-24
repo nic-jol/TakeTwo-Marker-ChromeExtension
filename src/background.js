@@ -129,13 +129,8 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
                     }
                   };
                 
-                
-                // axios.delete(API_URL + '/mark', {
-                //     params: {
-                //         _id: request._id,
-                //     },
-                //     config
-                // })
+              
+      
                 axios(config)
                     .then(function (response) {
                         // handle success
